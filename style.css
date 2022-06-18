@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,700&family=Poppins:wght@600&display=swap");
+/* font-family:'Open Sans', sans-serif
+Poppins, sans-seriff */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+}
+.first {
+  background-image: url("/images/bg-hero-mobile.svg");
+  padding: 20px;
+}
+.huddle {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  margin-top: 8px;
+}
+.smedia p {
+  margin-top: 9em;
+}
+.btn1 {
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+  border: none;
+  color: hsl(192, 100%, 9%);
+  background-color: hsl(193, 100%, 96%);
+}
+.mockup {
+  max-width: 100%;
+  width: 550px;
+  max-height: 100%;
+  height: 600px;
+}
+.up {
+  display: flex;
+  max-width: 100%;
+  width: 100%;
+  margin-left: 1em;
+  height: 400px;
+  max-height: 100%;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 4em;
+  margin-right: 10em;
+}
+.build {
+  max-width: 40%;
+  width: 100%;
+  margin-top: 3em;
+  color: hsl(192, 100%, 9%);
+}
+.build h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.build p {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.btn2 {
+  max-width: 100%;
+  width: 300px;
+  max-height: 100%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+  margin-top: 20px;
+}
+.grow,
+.flow,
+.your {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80%;
+  width: 100%;
+  gap: 50px;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 200px;
+  padding: 1.2em;
+  margin-top: 40px;
+  border: none;
+  box-shadow: 1px 1px 3px hsl(208, 11%, 55%);
+}
+.growi,
+.flowi,
+.youri {
+  width: 100%;
+  max-width: 20%;
+}
+.growt {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.flowt h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.yourt h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.growt h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.flowt,
+.yourt {
+  max-width: 80%;
+  width: 100%;
+  height: 250px;
+  color: hsl(192, 100%, 9%);
+}
+.growt p {
+  margin-top: 20px;
+  color: hsl(208, 11%, 55%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.growi img {
+  height: 100px;
+  width: 100px;
+}
+.flow img {
+  height: 100px;
+  width: 100px;
+}
+.flow p {
+  margin-top: 5px;
+  color: hsl(208, 11%, 55%);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.your img {
+  height: 100px;
+  width: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+.your p {
+  margin-top: 20px;
+  color: hsl(208, 11%, 55%);
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 0;
+}
+.fourth {
+  background-color: hsl(192, 100%, 9%);
+  display: flex;
+  padding: 1.5em;
+  margin-top: 130px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+}
+
+.adj {
+  width: 250px;
+}
+
+.hdown {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 45%;
+  margin: 10px;
+  color: hsl(193, 100%, 96%);
+  padding-top: 5em;
+}
+.hdown p {
+  margin: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+a {
+  text-decoration: none;
+  color: hsl(193, 100%, 96%);
+}
+.abt {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  max-width: 30%;
+  width: 100%;
+}
+.abt p {
+  margin: 12px 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.carr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  max-width: 30%;
+  width: 100%;
+}
+.carr p {
+  margin: 12px 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.btn3 {
+  border-radius: 20px;
+  max-width: 100%;
+  width: 300px;
+  text-align: center;
+  height: 40px;
+  max-height: 100%;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: hsl(193, 100%, 96%);
+}
+.third {
+  max-width: 80%;
+  width: 100%;
+  position: relative;
+  padding: 2em;
+  height: 30%;
+  top: 200px;
+  background-color: hsl(193, 100%, 96%);
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  border-radius: 5px;
+  color: hsl(192, 100%, 9%);
+}
+.third h3 {
+  margin-bottom: 15px;
+}
+.unknown {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 0px;
+  padding-top: 0;
+  max-height: 60%;
+  height: 80%;
+  color: hsl(193, 100%, 96%);
+}
+.smedia {
+  margin-top: 5em;
+}
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+.third h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+@media (max-width: 375px) {
+  .huddle {
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+    height: 20px;
+    max-width: 100%;
+  }
+  .up {
+    flex-direction: column;
+  }
+  .build {
+    max-width: 80%;
+    width: 100%;
+    margin-top: 3em;
+    color: hsl(192, 100%, 9%);
+  }
+  .mockup {
+    max-width: 80%;
+    width: 100%;
+    max-height: 70%;
+    height: 100%;
+  }
+  .first {
+    padding-bottom: 50px;
+  }
+  .grow,
+  .your {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1em;
+    margin-top: 200px;
+    border: none;
+  }
+  .growi,
+  .flowi,
+  .youri {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 20%;
+  }
+  .growt,
+  .flowt,
+  .yourt {
+    max-width: 100%;
+  }
+  .flow {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1em;
+    margin-top: 80px;
+    border: none;
+  }
+  .growt h2 {
+    height: 3px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  .flowt h2 {
+    height: 1px;
+    text-align: center;
+    margin-bottom: 2.5em;
+  }
+  .yourt h2 {
+    text-align: center;
+  }
+  .fourth {
+    flex-direction: column;
+  }
+  .hdown {
+    max-width: 100%;
+  }
+
+  .abt {
+    margin: 0.2em;
+    max-width: 100%;
+  }
+  .carr {
+    max-width: 100%;
+    margin: 0.6em;
+  }
+  .smedia {
+    max-width: 100%;
+    margin: 0.5em;
+  }
+}
+
+@media (max-width: 730px) {
+  .huddle {
+    display: flex;
+    justify-content: space-between;
+    margin: none;
+    height: 20px;
+    max-width: 100%;
+  }
+
+  .up {
+    flex-direction: column;
+  }
+
+  .build {
+    max-width: 80%;
+    width: 100%;
+    margin-top: 3em;
+    color: hsl(192, 100%, 9%);
+  }
+
+  .mockup {
+    max-width: 80%;
+    width: 100%;
+    max-height: 70%;
+    height: 100%;
+  }
+
+  .first {
+    padding-bottom: 50px;
+  }
+
+  .grow,
+  .your {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1em;
+    margin-top: 200px;
+    border: none;
+  }
+
+  .growi,
+  .flowi,
+  .youri {
+    max-width: 100%;
+    width: 100%;
+    margin-left: 20%;
+  }
+
+  .growt,
+  .flowt,
+  .yourt {
+    max-width: 100%;
+  }
+
+  .flow {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 80%;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1em;
+    margin-top: 80px;
+    border: none;
+  }
+
+  .growt h2 {
+    height: 3px;
+    text-align: center;
+    margin-bottom: 1.5em;
+  }
+
+  .flowt h2 {
+    height: 1px;
+    text-align: center;
+    margin-bottom: 2.5em;
+  }
+
+  .yourt h2 {
+    text-align: center;
+  }
+
+  .fourth {
+    flex-direction: column;
+  }
+
+  .hdown {
+    max-width: 100%;
+  }
+
+  .abt {
+    margin: 0.2em;
+    max-width: 100%;
+  }
+
+  .carr {
+    max-width: 100%;
+    margin: 0.6em;
+  }
+
+  .smedia {
+    max-width: 100%;
+    margin: 0.5em;
+  }
+}
+@media (min-width: 729px) and (max-width: 1400px) {
+  .first {
+    background-image: url("/images/bg-hero-desktop.svg");
+  }
+}
