@@ -278,6 +278,7 @@ button {
     max-width: 80%;
     width: 100%;
     margin-top: 3em;
+    margin-bottom: 1em;
     color: hsl(192, 100%, 9%);
   }
   .mockup {
@@ -384,6 +385,7 @@ button {
     width: 100%;
     margin-top: 3em;
     color: hsl(192, 100%, 9%);
+    margin-bottom: 1em;
   }
 
   .mockup {
